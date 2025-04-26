@@ -1,7 +1,7 @@
 #include "D:\Data\code_doc\AI_model_building\Logistic_regression\Core.h"
 
 int main() {
-    char file[] = "D:\\Data\\archive1\\MAGIC_Gamma_Telescope_small_copy.csv";
+    char file[] = "MAGIC_Gamma_Telescope_small_copy.csv";
     Data_Frame* df = read_csv(file, 1000, ",");
     Dataset* ds = trans_dframe_to_dset(df, "class");
     Standard_scaler* scaler = (Standard_scaler*)malloc(sizeof(Standard_scaler));
