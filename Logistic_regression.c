@@ -1,4 +1,4 @@
-#include "D:\Data\code_doc\AI_model_building\Logistic_regression\Core.h"
+#include "Core.h"
 
 typedef struct Logistic_Regression {
     Dataset* data;
