@@ -1,4 +1,4 @@
-#include "D:\Data\code_doc\AI_model_building\Logistic_regression\Core.h"
+#include "Core.h"
 
 int main() {
     char file[] = "MAGIC_Gamma_Telescope_small_copy.csv";
